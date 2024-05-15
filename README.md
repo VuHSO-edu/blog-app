@@ -1,32 +1,33 @@
+
 # Blog-App
 
 ## Project Introduction
-Blog-App is a Java-based blogging platform that allows users to create, edit, view, and delete blog posts. This application is built using Spring Boot, providing a robust backend system and a dynamic web interface.
+Blog-App là một nền tảng viết blog dựa trên Java cho phép người dùng tạo, chỉnh sửa, xem và xóa các bài viết blog. Ứng dụng này được xây dựng bằng Spring Boot, cung cấp một hệ thống backend mạnh mẽ và một giao diện web động.
 
 ## Project Information
 
-1. *Repository Description*: Java-based blogging platform for creating and managing posts.
-2. *Architecture Details*: Built with Spring Boot and utilizes Java Spring framework components.
-3. *Branching Information*: The master branch uses Spring Boot 2.7+ and JDK 8; the dev-v3 branch is upgraded to Spring Boot 3.2+ and JDK 17.
+1. *Repository Description*: Nền tảng viết blog dựa trên Java để tạo và quản lý bài đăng.
+2. *Architecture Details*: Được xây dựng bằng Spring Boot và sử dụng các thành phần khung Java Spring.
+3. *Branching Information*: Nhánh chính sử dụng Spring Boot 2.7+ và JDK 8; nhánh dev-v3 được nâng cấp lên Spring Boot 3.2+ và JDK 17.
 
 ## System Architecture
-Blog-App is designed with a clean, scalable architecture in mind:
-- *Web Layer*: Handles HTTP requests and responses.
-- *Service Layer*: Provides core business logic.
-- *Data Access Layer*: Manages database operations.
-- *Security Layer*: Ensures authentication and protects routes.
+Blog-App được thiết kế với một kiến ​​trúc rõ ràng, có thể mở rộng:
+- *Web Layer*: Xử lý các yêu cầu và phản hồi HTTP.
+- *Service Layer*: Cung cấp logic quản lý cốt lõi.
+- *Data Access Layer*: Quản lý hoạt động cơ sở dữ liệu.
+- *Security Layer*: Đảm bảo xác thực.
 
 ## Technologies Used
-- *Spring Boot*: Simplifies the development of new Spring applications.
-- *Java*: Offers portability and extensive support for web applications.
-- *Maven*: Manages dependencies and project lifecycle.
-- *MySQL*: Handles data storage with reliable transaction support.
-- *Spring Security*: Ensures secure authentication and authorization.
+- *Spring Boot*: Đơn giản hóa việc phát triển các ứng dụng Spring mới.
+- *Java*: Cung cấp tính di động và hỗ trợ rộng rãi cho các ứng dụng web.
+- *Maven*: Quản lý các phụ thuộc và vòng đời dự án.
+- *MySQL*:  Xử lý lưu trữ dữ liệu với hỗ trợ giao dịch đáng tin cậy.
+- *Spring Security*: Đảm bảo xác thực và phân quyền an toàn.
 
 ## Project Structure
-- *src/main/java*: Java source files for application logic.
-- *src/main/resources*: Configuration files and resources.
-- *src/test/java*: Source files for unit and integration tests.
+- *src/main/java*: Các tệp mã nguồn Java cho logic ứng dụng.
+- *src/main/resources*: Các tệp cấu hình và tài nguyên.
+- *src/test/java*: Các tệp mã nguồn cho kiểm thử đơn vị và tích hợp.
 
 ## Quick Start
 Clone the repository and navigate to the directory:
@@ -34,3 +35,5 @@ Clone the repository and navigate to the directory:
 git clone https://github.com/VuHSO-edu/blog-app.git
 cd blog-app
 ./mvnw spring-boot:run
+
+
